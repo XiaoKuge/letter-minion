@@ -1,0 +1,7 @@
+node_modules
+*.log
+.DS_Store
+.turbo
+*.tsbuildinfo
+# NOTE: dist/ is intentionally committed so `npm i github:XiaoKuge/googly-creatures`
+# works with zero build step on the consumer side.

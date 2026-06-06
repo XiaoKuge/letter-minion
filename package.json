@@ -1,0 +1,43 @@
+{
+  "name": "googly-creatures",
+  "version": "0.1.0",
+  "description": "Googly-eyed letter & monster creatures that follow the cursor (React + motion). SVG, no CSS framework required.",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "XiaoKuge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoKuge/googly-creatures.git"
+  },
+  "keywords": ["react", "svg", "animation", "googly-eyes", "cursor", "motion", "mascot"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src", "README.md"],
+  "scripts": {
+    "build": "tsup && node scripts/add-directive.mjs",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "motion": ">=11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "motion": "^12.26.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tsup": "^8.3.5",
+    "typescript": "~5.9.3"
+  }
+}
