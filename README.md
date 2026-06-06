@@ -83,5 +83,19 @@ optional `cursorX` / `cursorY` (`MotionValue<number>`; defaults to a shared glob
 ### `useGlobalCursor()`
 Returns shared `{ cursorX, cursorY }` MotionValues (one window listener, attached lazily).
 
+## Example
+
+A runnable **QED-style login gate** that consumes this library lives in
+[`examples/login`](./examples/login) — Next.js app with an access-code gate
+(middleware + signed cookie + API) whose animated `QED` letters come from
+`letter-minion`. Revealing the password shuts their eyes.
+
+```bash
+cd examples/login
+cp .env.local.example .env.local
+npm install      # pulls letter-minion from ../.. via a file: dependency
+npm run dev      # http://localhost:3000  (access code: demo)
+```
+
 ## License
 MIT

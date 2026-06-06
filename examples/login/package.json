@@ -1,0 +1,27 @@
+{
+  "name": "letter-minion-login-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "qed-site-style login gate that uses letter-minion for the animated QED letters.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "letter-minion": "file:../..",
+    "next": "^15.1.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "motion": "^12.26.2",
+    "lucide-react": "^0.562.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18",
+    "@tailwindcss/postcss": "^4.1.18"
+  }
+}
