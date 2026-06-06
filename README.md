@@ -1,4 +1,4 @@
-# googly-creatures
+# letter-minion
 
 Googly-eyed **letter** and **monster** creatures that follow the cursor — built with
 React + [`motion`](https://motion.dev). Pure SVG, **no CSS framework required**
@@ -14,7 +14,7 @@ React + [`motion`](https://motion.dev). Pure SVG, **no CSS framework required**
 Straight from GitHub (no npm account needed):
 
 ```bash
-npm i github:XiaoKuge/googly-creatures
+npm i github:XiaoKuge/letter-minion
 ```
 
 Peer deps (you almost certainly already have these): `react`, `react-dom`, `motion`.
@@ -28,7 +28,7 @@ npm i react react-dom motion
 ### Spell a word
 
 ```tsx
-import { LetterRow } from "googly-creatures";
+import { LetterRow } from "letter-minion";
 
 export default function Hero() {
   return <LetterRow text="QED" gap={-16} width={128} height={160} />;
@@ -38,7 +38,7 @@ export default function Hero() {
 ### A single letter (auto-tracks the cursor)
 
 ```tsx
-import { GlyphCreature } from "googly-creatures";
+import { GlyphCreature } from "letter-minion";
 
 <GlyphCreature char="A" color="#c2410c" />;
 ```
@@ -53,7 +53,7 @@ const [show, setShow] = useState(false);
 ### Monsters
 
 ```tsx
-import { InteractiveMonsters } from "googly-creatures";
+import { InteractiveMonsters } from "letter-minion";
 
 <div style={{ width: 400, height: 400 }}>
   <InteractiveMonsters isFormFocused={focused} isPasswordVisible={show} />

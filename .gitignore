@@ -3,5 +3,5 @@ node_modules
 .DS_Store
 .turbo
 *.tsbuildinfo
-# NOTE: dist/ is intentionally committed so `npm i github:XiaoKuge/googly-creatures`
+# NOTE: dist/ is intentionally committed so `npm i github:XiaoKuge/letter-minion`
 # works with zero build step on the consumer side.

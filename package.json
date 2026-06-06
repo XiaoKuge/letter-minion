@@ -1,5 +1,5 @@
 {
-  "name": "googly-creatures",
+  "name": "letter-minion",
   "version": "0.1.0",
   "description": "Googly-eyed letter & monster creatures that follow the cursor (React + motion). SVG, no CSS framework required.",
   "type": "module",
@@ -8,7 +8,7 @@
   "author": "XiaoKuge",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XiaoKuge/googly-creatures.git"
+    "url": "git+https://github.com/XiaoKuge/letter-minion.git"
   },
   "keywords": ["react", "svg", "animation", "googly-eyes", "cursor", "motion", "mascot"],
   "main": "./dist/index.js",
